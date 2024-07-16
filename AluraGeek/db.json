@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Replica: 'El Anillo Único'",
+      "precio": "$5000",
+      "imgUrl": "https://github.com/Emmsr98/AluraGeek/blob/main/Images/imgn1.jpg?raw=true"
+    },
+    {
+      "id": "2",
+      "titulo": "Replica: 'Anillo de Aragorn'",
+      "precio": "$5000",
+      "imgUrl": "https://github.com/Emmsr98/AluraGeek/blob/main/Images/imgn2.jpg?raw=true"
+    },
+    {
+      "id": "3",
+      "titulo": "Replica: 'Collar de Arwen'",
+      "precio": "$4000",
+      "imgUrl": "https://github.com/Emmsr98/AluraGeek/blob/main/Images/imgn3.jpg?raw=true"
+    },
+    {
+      "id": "4",
+      "titulo": "Conjunto de cuadros: 'Gandalf vs Balrog'",
+      "precio": "$5500",
+      "imgUrl": "https://github.com/Emmsr98/AluraGeek/blob/main/Images/imgn4.jpg?raw=true"
+    },
+    {
+      "id": "5",
+      "titulo": "Cuadro 'Mapa de la Tierra Media'",
+      "precio": "$2560",
+      "imgUrl": "https://github.com/Emmsr98/AluraGeek/blob/main/Images/imgn5.jpg?raw=true"
+    },
+    {
+      "id": "6",
+      "titulo": "Guantelete de Sauron",
+      "precio": "$5350",
+      "imgUrl": "https://github.com/Emmsr98/AluraGeek/blob/main/Images/imgn6.jpg?raw=true"
+    }
+  ]
+}

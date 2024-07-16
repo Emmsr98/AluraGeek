@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex: 1; 
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/*Formulario*/
+.form_productos{
+    margin-top: 45px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.form-agregar-prod{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+/*Botones*/
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+/*Mis productos*/
+.mis_productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productos{
+        margin-top: 50px;
+    }
+    .mis_productos {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .productosItem {
+        max-width: 150px;
+    }
+    .imagen-producto {
+        max-width: 150px;
+    }
+}
